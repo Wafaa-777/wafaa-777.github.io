@@ -12,21 +12,25 @@ body {
 
 /* Navigation */
 
+/* Navigation */
+
 header {
     padding: 30px 8%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
-    gap: 20px;
 }
 
 .logo {
     color: #8b5e3c;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 nav ul {
@@ -44,7 +48,6 @@ nav a {
 nav a:hover {
     color: #8b5e3c;
 }
-
 
 /* Hero Section */
 
