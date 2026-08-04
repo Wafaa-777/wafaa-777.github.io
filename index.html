@@ -23,13 +23,10 @@
 
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-
-        <div class="menu-btn">&#9776;</div>
 
     </nav>
 
@@ -51,8 +48,7 @@
         </p>
 
         <div class="buttons">
-            <a href="#projects" class="btn">View Projects</a>
-            <a href="#contact" class="btn-outline">Contact Me</a>
+            <a href="assets/Wafaa Resume.pdf" class="btn">View Resume</a>
         </div>
 
     </div>
@@ -63,7 +59,7 @@
     -->
 </section>
 
-<!-- ABOUT -->
+<!-- ABOUT 
 <section id="about" class="about">
 
     <h2>About Me</h2>
@@ -75,7 +71,7 @@
     </p>
 
 </section>
-
+-->
 <!-- SKILLS -->
 <section id="skills" class="skills">
 
@@ -103,8 +99,6 @@
 
 <div class="project-card">
 
-<img src="assets/project1.png" alt="">
-
 <div class="project-info">
 
 <h3>Portfolio Website</h3>
@@ -114,7 +108,6 @@ A responsive portfolio built using HTML, CSS and JavaScript.
 </p>
 
 <div class="project-links">
-<a href="#" class="btn">Live Demo</a>
 <a href="#" class="btn-outline">GitHub</a>
 </div>
 
@@ -123,30 +116,6 @@ A responsive portfolio built using HTML, CSS and JavaScript.
 </div>
 
 <div class="project-card">
-
-<img src="assets/project2.png" alt="">
-
-<div class="project-info">
-
-<h3>Weather App</h3>
-
-<p>
-Displays live weather using a public API.
-
-</p>
-
-<div class="project-links">
-<a href="#" class="btn">Live Demo</a>
-<a href="#" class="btn-outline">GitHub</a>
-</div>
-
-</div>
-
-</div>
-
-<div class="project-card">
-
-<img src="assets/project3.png" alt="">
 
 <div class="project-info">
 
@@ -154,11 +123,9 @@ Displays live weather using a public API.
 
 <p>
 A productivity app for tracking daily tasks.
-
 </p>
 
 <div class="project-links">
-<a href="#" class="btn">Live Demo</a>
 <a href="#" class="btn-outline">GitHub</a>
 </div>
 
@@ -172,59 +139,122 @@ A productivity app for tracking daily tasks.
 
 <!-- EXPERIENCE -->
 
-<section id="experience" class="experience">
 
-    <h2>Experience</h2>
+  <h2 class="section-heading">Experience</h2>
 
-    <div class="timeline">
+  <div class="experience-grid">
 
-        <div class="timeline-item">
-            <div class="timeline-dot"></div>
+    <!-- Card 1 -->
+  <div class="exp-card">
+  <div class="exp-logo">
+    <img src="assets/MacSER Logo 2.png" alt=MacSER logo" />
+  </div>
 
-            <div class="timeline-content">
-                <span>Sept 2025 - Dec 2025</span>
-                <h3>Software Engineering Student</h3>
-                <h4>McMaster University</h4>
+  <div class="exp-body">
+    <h3 class="exp-title">VP Events</h3>
+    <p class="exp-company">MacSER</p>
+    <p class="exp-dates">May 2026 - Present</p>
+  <div class="exp-tags">
+          <span class="exp-tag">Event Planning</span>
+          <span class="exp-tag">Teamwork</span>
+  </div>
+    <div class="exp-extra">
+      <p>
+        Developed software features for...
+      </p>
 
-                <p>
-                    Learning software development, data structures,
-                    object-oriented programming, and web development while
-                    working on personal and academic projects.
-                </p>
-            </div>
-        </div>
-
-        <div class="timeline-item">
-            <div class="timeline-dot"></div>
-
-            <div class="timeline-content">
-                <span>2024</span>
-                <h3>Web Development Projects</h3>
-
-                <p>
-                    Built responsive websites using HTML, CSS,
-                    JavaScript and Git while practicing UI/UX design.
-                </p>
-            </div>
-        </div>
-
+      <ul>
+        <li>Built...</li>
+        <li>Collaborated with...</li>
+        <li>Improved...</li>
+      </ul>
     </div>
 
-</section>
+    <button class="exp-toggle" type="button">
+      Read more ↓
+    </button>
+  </div>
+</div>
+
+    <!-- Card 2 -->
+    <div class="exp-card">
+      <div class="exp-logo">
+        <img src="assets/ewb.png" alt="EWB logo" />
+      </div>
+      <div class="exp-body">
+        <h3 class="exp-title">Administrator</h3>
+        <p class="exp-company">McMaster EWB</p>
+        <p class="exp-dates">June 2026-Present</p>
+        <div class="exp-tags">
+          <span class="exp-tag">C++</span>
+          <span class="exp-tag">Python</span>
+        </div>
+       <div class="exp-extra">
+      <p>
+        Developed software features for...
+      </p>
+
+      <ul>
+        <li>Built...</li>
+        <li>Collaborated with...</li>
+        <li>Improved...</li>
+      </ul>
+    </div>
+
+    <button class="exp-toggle" type="button">
+      Read more ↓
+    </button>
+  </div>
+</div>
+
+    <!-- Card 3 -->
+    <div class="exp-card">
+      <div class="exp-logo">
+        <img src="assets/ymca.png" alt="YMCA Logo" />
+      </div>
+      <div class="exp-body">
+        <h3 class="exp-title">Summer Camp Counselor</h3>
+        <p class="exp-company">YMCA</p>
+        <p class="exp-dates">June 2025-August 2026</p>
+        <div class="exp-tags">
+          <span class="exp-tag">Leadership</span>
+          <span class="exp-tag">Teamwork</span>
+        </div>
+       <div class="exp-extra">
+      <p>
+        Developed software features for...
+      </p>
+
+      <ul>
+        <li>Built...</li>
+        <li>Collaborated with...</li>
+        <li>Improved...</li>
+      </ul>
+    </div>
+
+    <button class="exp-toggle" type="button">
+      Read more ↓
+    </button>
+  </div>
+</div>
+
 <!-- CONTACT -->
 <section id="contact" class="contact">
 
     <h2>Contact</h2>
 
     <p>Email: wafaa@email.com</p>
+    <div class="contact-links">
+    <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">
+        <img src="assets/linkedin.jpg" alt="LinkedIn">
+    </a>
+
+    <a href="https://github.com/your-github" target="_blank">
+        <img src="assets/git.png" alt="GitHub">
+    </a>
+</div>
 
 </section>
-
-<footer>
-
-    <p>© 2026 Wafaa. All Rights Reserved.</p>
-
-</footer>
 
 <script src="script.js"></script>
 
