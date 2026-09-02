@@ -325,17 +325,6 @@ section h2 {
 /* =========================
    EXPERIENCE
 ========================= */
-
-.section-heading {
-    text-align: center;
-    font-size: 2.4rem;
-    font-weight: 800;
-    margin-bottom: 50px;
-    letter-spacing: 0.5px;
-    color: var(--text-dark);
-}
-
-
 .experience-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
